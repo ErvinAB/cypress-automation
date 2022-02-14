@@ -1,0 +1,26 @@
+{
+  "total" : 8,
+  "items" : [ {
+    "uid" : "edce6f79f95c03dd49a36defe35b3845",
+    "name" : "Test E2E",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "9757871d2d099f96d2003011014d29fe",
+    "name" : "Testing login page",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  } ]
+}

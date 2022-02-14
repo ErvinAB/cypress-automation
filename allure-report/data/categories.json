@@ -1,0 +1,165 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Timed out retrying after 4000ms: Expected to find element: `:nth-child(1) > :nth-child(1) > .card-body > h5`, but never found it.",
+      "children" : [ {
+        "name" : "TC001:Validate HomePage",
+        "uid" : "be9e1dad0305dd2b",
+        "parentUid" : "244f7de3ea682a77f5a08b6e5ccd6224",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644811488953,
+          "stop" : 1644811496082,
+          "duration" : 7129
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "244f7de3ea682a77f5a08b6e5ccd6224"
+    }, {
+      "name" : "The following error originated from your test code, not from Cypress.\n\n  > Cannot read properties of undefined (reading 'signals')\n\nWhen Cypress detects uncaught errors originating from your test code it will automatically fail the current test.\n\nCypress could not associate this error to any specific test.\n\nWe dynamically generated a new test to display this failure.",
+      "children" : [ {
+        "name" : "An uncaught error was detected outside of a test",
+        "uid" : "6412934209e0d0cb",
+        "parentUid" : "6d14def0842f76814bed6c1bb83a565e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644850901026,
+          "stop" : 1644850904624,
+          "duration" : 3598
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6d14def0842f76814bed6c1bb83a565e"
+    }, {
+      "name" : "Timed out retrying after 10000ms: Expected to find element: `//a[contains(text(), ' Settings')]`, but never found it.",
+      "children" : [ {
+        "name" : "Valid log in",
+        "uid" : "8f8faa410964319a",
+        "parentUid" : "6f6d3fe541f303366fc804500971c18d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644852693026,
+          "stop" : 1644852706775,
+          "duration" : 13749
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6f6d3fe541f303366fc804500971c18d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Oops...we found an error preparing this test file:\n\n  cypress\\integration\\UI\\Test.feature\n\n",
+      "children" : [ {
+        "name" : "Oops...we found an error preparing this test file: UI/Test.feature",
+        "uid" : "257d92216787d351",
+        "parentUid" : "1fe9341a70883f0fc9adb93833a24789",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644849684824,
+          "stop" : 1644849684824,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Oops...we found an error preparing this test file: UI/Test.feature",
+        "uid" : "e7333510f8e0660f",
+        "parentUid" : "1fe9341a70883f0fc9adb93833a24789",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644850283005,
+          "stop" : 1644850283005,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Oops...we found an error preparing this test file: UI/Test.feature",
+        "uid" : "4f6af9e0bab427ad",
+        "parentUid" : "1fe9341a70883f0fc9adb93833a24789",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644850453584,
+          "stop" : 1644850453584,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Oops...we found an error preparing this test file: UI/Test.feature",
+        "uid" : "67029f3c35b8ca06",
+        "parentUid" : "1fe9341a70883f0fc9adb93833a24789",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644850530442,
+          "stop" : 1644850530442,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Oops...we found an error preparing this test file: UI/Test.feature",
+        "uid" : "eaf27441760e1cc0",
+        "parentUid" : "1fe9341a70883f0fc9adb93833a24789",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644850654502,
+          "stop" : 1644850654502,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1fe9341a70883f0fc9adb93833a24789"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

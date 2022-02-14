@@ -1,0 +1,250 @@
+{
+  "uid" : "be9e1dad0305dd2b",
+  "name" : "TC001:Validate HomePage",
+  "fullName" : "TC001:Validate HomePage",
+  "historyId" : "7eafa870ff8ebb79a0b93c61de04339a",
+  "time" : {
+    "start" : 1644811488953,
+    "stop" : 1644811496082,
+    "duration" : 7129
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 4000ms: Expected to find element: `:nth-child(1) > :nth-child(1) > .card-body > h5`, but never found it.",
+  "statusTrace" : "AssertionError: Timed out retrying after 4000ms: Expected to find element: `:nth-child(1) > :nth-child(1) > .card-body > h5`, but never found it.\n    at Function.clickingonElements (https://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\UI\\Test.feature:24:10)\n    at Context.eval (https://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\UI\\Test.feature:197:25)\n    at Context.resolveAndRunStepDefinition (https://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\UI\\Test.feature:10633:29)\n    at Context.eval (https://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\UI\\Test.feature:9954:35)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 4000ms: Expected to find element: `:nth-child(1) > :nth-child(1) > .card-body > h5`, but never found it.",
+    "statusTrace" : "AssertionError: Timed out retrying after 4000ms: Expected to find element: `:nth-child(1) > :nth-child(1) > .card-body > h5`, but never found it.\n    at Function.clickingonElements (https://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\UI\\Test.feature:24:10)\n    at Context.eval (https://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\UI\\Test.feature:197:25)\n    at Context.resolveAndRunStepDefinition (https://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\UI\\Test.feature:10633:29)\n    at Context.eval (https://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\UI\\Test.feature:9954:35)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1644811488961,
+        "stop" : 1644811488963,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Given User Open Url",
+      "time" : {
+        "start" : 1644811489000,
+        "stop" : 1644811491721,
+        "duration" : 2721
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://react-redux.realworld.io/",
+        "time" : {
+          "start" : 1644811489004,
+          "stop" : 1644811491710,
+          "duration" : 2706
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET https://conduit.productionready.io/api/articles?limit=10&offset=0",
+        "time" : {
+          "start" : 1644811491709,
+          "stop" : 1644811491709,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET https://conduit.productionready.io/api/tags",
+        "time" : {
+          "start" : 1644811491709,
+          "stop" : 1644811491709,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then User Click on Element",
+      "time" : {
+        "start" : 1644811491721,
+        "stop" : 1644811496079,
+        "duration" : 4358
+      },
+      "status" : "failed",
+      "steps" : [ {
+        "name" : "get :nth-child(1) > :nth-child(1) > .card-body > h5",
+        "time" : {
+          "start" : 1644811491723,
+          "stop" : 1644811496079,
+          "duration" : 4356
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET https://api.realworld.io/api/articles?limit=10&offset=0",
+        "time" : {
+          "start" : 1644811496079,
+          "stop" : 1644811496079,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET https://api.realworld.io/api/tags",
+        "time" : {
+          "start" : 1644811496079,
+          "stop" : 1644811496079,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1644811496085,
+        "stop" : 1644811496089,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "aa36fe3faa3dba6e",
+      "name" : "UI/Test.feature:2022-02-14T04:04:55.770Z",
+      "source" : "aa36fe3faa3dba6e.png",
+      "type" : "image/png",
+      "size" : 183320
+    }, {
+      "uid" : "365e732e1090eac",
+      "name" : "video recording",
+      "source" : "365e732e1090eac.mp4",
+      "type" : "video/mp4",
+      "size" : 2303465
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "UI"
+  }, {
+    "name" : "feature",
+    "value" : "Test E2E"
+  }, {
+    "name" : "tag",
+    "value" : "Regression"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "27f4cf3b5d4b3faa",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: Expected to find element: `:nth-child(1) > :nth-child(1) > .card-body > h5`, but never found it.",
+      "time" : {
+        "start" : 1644811222968,
+        "stop" : 1644811231231,
+        "duration" : 8263
+      }
+    }, {
+      "uid" : "79febb962d13f3c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642932327513,
+        "stop" : 1642932343927,
+        "duration" : 16414
+      }
+    }, {
+      "uid" : "352566e9cc1ccf32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642740729866,
+        "stop" : 1642740742686,
+        "duration" : 12820
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "Regression" ]
+  },
+  "source" : "be9e1dad0305dd2b.json",
+  "parameterValues" : [ ]
+}

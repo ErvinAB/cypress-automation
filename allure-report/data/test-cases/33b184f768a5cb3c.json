@@ -1,0 +1,204 @@
+{
+  "uid" : "33b184f768a5cb3c",
+  "name" : "Valid log in",
+  "fullName" : "Valid log in",
+  "historyId" : "18227cd3bf84e4c7779f374797ebab0b",
+  "time" : {
+    "start" : 1644851250238,
+    "stop" : 1644851263950,
+    "duration" : 13712
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 10000ms: Expected to find element: `//i[@class='ion-gear-a']`, but never found it.",
+  "statusTrace" : "AssertionError: Timed out retrying after 10000ms: Expected to find element: `//i[@class='ion-gear-a']`, but never found it.\n    at Function.clickOnLoginButton (https://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\UI\\Test.feature:128:10)\n    at Context.eval (https://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\UI\\Test.feature:228:23)\n    at Context.resolveAndRunStepDefinition (https://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\UI\\Test.feature:10670:29)\n    at Context.eval (https://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\UI\\Test.feature:9991:35)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 10000ms: Expected to find element: `//i[@class='ion-gear-a']`, but never found it.",
+    "statusTrace" : "AssertionError: Timed out retrying after 10000ms: Expected to find element: `//i[@class='ion-gear-a']`, but never found it.\n    at Function.clickOnLoginButton (https://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\UI\\Test.feature:128:10)\n    at Context.eval (https://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\UI\\Test.feature:228:23)\n    at Context.resolveAndRunStepDefinition (https://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\UI\\Test.feature:10670:29)\n    at Context.eval (https://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\UI\\Test.feature:9991:35)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1644851250242,
+        "stop" : 1644851250244,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Given User navigates to Conduit",
+      "time" : {
+        "start" : 1644851250268,
+        "stop" : 1644851253592,
+        "duration" : 3324
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://react-redux.realworld.io/",
+        "time" : {
+          "start" : 1644851250269,
+          "stop" : 1644851253587,
+          "duration" : 3318
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET https://conduit.productionready.io/api/articles?limit=10&offset=0",
+        "time" : {
+          "start" : 1644851253587,
+          "stop" : 1644851253587,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET https://conduit.productionready.io/api/tags",
+        "time" : {
+          "start" : 1644851253587,
+          "stop" : 1644851253587,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And Clicks on login button",
+      "time" : {
+        "start" : 1644851253592,
+        "stop" : 1644851263948,
+        "duration" : 10356
+      },
+      "status" : "failed",
+      "steps" : [ {
+        "name" : "GET https://api.realworld.io/api/tags",
+        "time" : {
+          "start" : 1644851253594,
+          "stop" : 1644851263947,
+          "duration" : 10353
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET https://api.realworld.io/api/articles?limit=10&offset=0",
+        "time" : {
+          "start" : 1644851263947,
+          "stop" : 1644851263947,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1644851263952,
+        "stop" : 1644851263960,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "4685ac0ccf97fd72",
+      "name" : "UI/Test.feature:2022-02-14T15:07:43.628Z",
+      "source" : "4685ac0ccf97fd72.png",
+      "type" : "image/png",
+      "size" : 180387
+    }, {
+      "uid" : "b3ce2f3fcd925032",
+      "name" : "video recording",
+      "source" : "b3ce2f3fcd925032.mp4",
+      "type" : "video/mp4",
+      "size" : 735920
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "UI"
+  }, {
+    "name" : "feature",
+    "value" : "Testing login page"
+  }, {
+    "name" : "tag",
+    "value" : "Regression"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "Regression" ]
+  },
+  "source" : "33b184f768a5cb3c.json",
+  "parameterValues" : [ ]
+}

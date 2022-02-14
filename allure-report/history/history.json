@@ -1,0 +1,100 @@
+{
+  "c59643030e1e776644fd5d1d6aa79cfc" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6412934209e0d0cb",
+      "status" : "failed",
+      "statusDetails" : "The following error originated from your test code, not from Cypress.\n\n  > Cannot read properties of undefined (reading 'signals')\n\nWhen Cypress detects uncaught errors originating from your test code it will automatically fail the current test.\n\nCypress could not associate this error to any specific test.\n\nWe dynamically generated a new test to display this failure.",
+      "time" : {
+        "start" : 1644850901026,
+        "stop" : 1644850904624,
+        "duration" : 3598
+      }
+    } ]
+  },
+  "7eafa870ff8ebb79a0b93c61de04339a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "be9e1dad0305dd2b",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: Expected to find element: `:nth-child(1) > :nth-child(1) > .card-body > h5`, but never found it.",
+      "time" : {
+        "start" : 1644811488953,
+        "stop" : 1644811496082,
+        "duration" : 7129
+      }
+    } ]
+  },
+  "a1430cd4396ea6d56fa0213f6fd58bff" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1eda489160827f0a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644811776618,
+        "stop" : 1644811778330,
+        "duration" : 1712
+      }
+    } ]
+  },
+  "18227cd3bf84e4c7779f374797ebab0b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8f8faa410964319a",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 10000ms: Expected to find element: `//a[contains(text(), ' Settings')]`, but never found it.",
+      "time" : {
+        "start" : 1644852693026,
+        "stop" : 1644852706775,
+        "duration" : 13749
+      }
+    } ]
+  },
+  "53ed386131e4084dc127f08de7f5b875" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cddf9268290ed596",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644852706825,
+        "stop" : 1644852706858,
+        "duration" : 33
+      }
+    } ]
+  }
+}

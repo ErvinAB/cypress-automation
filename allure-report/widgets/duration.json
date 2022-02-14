@@ -1,0 +1,101 @@
+[ {
+  "uid" : "eaf27441760e1cc0",
+  "name" : "Oops...we found an error preparing this test file: UI/Test.feature",
+  "time" : {
+    "start" : 1644850654502,
+    "stop" : 1644850654502,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "be9e1dad0305dd2b",
+  "name" : "TC001:Validate HomePage",
+  "time" : {
+    "start" : 1644811488953,
+    "stop" : 1644811496082,
+    "duration" : 7129
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "cddf9268290ed596",
+  "name" : "Click on New Post to Create New Article & Publish",
+  "time" : {
+    "start" : 1644852706825,
+    "stop" : 1644852706858,
+    "duration" : 33
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1eda489160827f0a",
+  "name" : "TC001:Validate API Test",
+  "time" : {
+    "start" : 1644811776618,
+    "stop" : 1644811778330,
+    "duration" : 1712
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f8faa410964319a",
+  "name" : "Valid log in",
+  "time" : {
+    "start" : 1644852693026,
+    "stop" : 1644852706775,
+    "duration" : 13749
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e7333510f8e0660f",
+  "name" : "Oops...we found an error preparing this test file: UI/Test.feature",
+  "time" : {
+    "start" : 1644850283005,
+    "stop" : 1644850283005,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "257d92216787d351",
+  "name" : "Oops...we found an error preparing this test file: UI/Test.feature",
+  "time" : {
+    "start" : 1644849684824,
+    "stop" : 1644849684824,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6412934209e0d0cb",
+  "name" : "An uncaught error was detected outside of a test",
+  "time" : {
+    "start" : 1644850901026,
+    "stop" : 1644850904624,
+    "duration" : 3598
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4f6af9e0bab427ad",
+  "name" : "Oops...we found an error preparing this test file: UI/Test.feature",
+  "time" : {
+    "start" : 1644850453584,
+    "stop" : 1644850453584,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "67029f3c35b8ca06",
+  "name" : "Oops...we found an error preparing this test file: UI/Test.feature",
+  "time" : {
+    "start" : 1644850530442,
+    "stop" : 1644850530442,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,10 @@
+{
+    "extends":"./cypress.json",
+    "baseUrl":"https://react-redux.realworld.io/",
+    "env":
+    {
+        
+    }
+    
+
+}

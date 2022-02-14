@@ -1,0 +1,187 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "UI",
+    "children" : [ {
+      "name" : "TC001:Validate HomePage",
+      "uid" : "be9e1dad0305dd2b",
+      "parentUid" : "6bfa3d1bea669a46b5644d20357bd4d8",
+      "status" : "failed",
+      "time" : {
+        "start" : 1644811488953,
+        "stop" : 1644811496082,
+        "duration" : 7129
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Valid log in",
+      "uid" : "8f8faa410964319a",
+      "parentUid" : "6bfa3d1bea669a46b5644d20357bd4d8",
+      "status" : "failed",
+      "time" : {
+        "start" : 1644852693026,
+        "stop" : 1644852706775,
+        "duration" : 13749
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Click on New Post to Create New Article & Publish",
+      "uid" : "cddf9268290ed596",
+      "parentUid" : "6bfa3d1bea669a46b5644d20357bd4d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644852706825,
+        "stop" : 1644852706858,
+        "duration" : 33
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6bfa3d1bea669a46b5644d20357bd4d8"
+  }, {
+    "name" : "API",
+    "children" : [ {
+      "name" : "TC001:Validate API Test",
+      "uid" : "1eda489160827f0a",
+      "parentUid" : "14fa7b099890ed134a386db0936127bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644811776618,
+        "stop" : 1644811778330,
+        "duration" : 1712
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "14fa7b099890ed134a386db0936127bb"
+  }, {
+    "name" : "UI/Test.feature",
+    "children" : [ {
+      "name" : "Oops...we found an error preparing this test file: UI/Test.feature",
+      "uid" : "257d92216787d351",
+      "parentUid" : "016281abd0bff9d7697d7590379ee775",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644849684824,
+        "stop" : 1644849684824,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Oops...we found an error preparing this test file: UI/Test.feature",
+      "uid" : "e7333510f8e0660f",
+      "parentUid" : "016281abd0bff9d7697d7590379ee775",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644850283005,
+        "stop" : 1644850283005,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Oops...we found an error preparing this test file: UI/Test.feature",
+      "uid" : "4f6af9e0bab427ad",
+      "parentUid" : "016281abd0bff9d7697d7590379ee775",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644850453584,
+        "stop" : 1644850453584,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Oops...we found an error preparing this test file: UI/Test.feature",
+      "uid" : "67029f3c35b8ca06",
+      "parentUid" : "016281abd0bff9d7697d7590379ee775",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644850530442,
+        "stop" : 1644850530442,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Oops...we found an error preparing this test file: UI/Test.feature",
+      "uid" : "eaf27441760e1cc0",
+      "parentUid" : "016281abd0bff9d7697d7590379ee775",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644850654502,
+        "stop" : 1644850654502,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "016281abd0bff9d7697d7590379ee775"
+  }, {
+    "name" : "An uncaught error was detected outside of a test",
+    "uid" : "6412934209e0d0cb",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644850901026,
+      "stop" : 1644850904624,
+      "duration" : 3598
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "suites"
+}
