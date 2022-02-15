@@ -1,0 +1,459 @@
+{
+  "uid" : "65c0d4175958e9f6",
+  "name" : "Logout and update user settings",
+  "fullName" : "Logout and update user settings",
+  "historyId" : "0103e27f7c9b3ca726d93ca3c00415d8",
+  "time" : {
+    "start" : 1644881456215,
+    "stop" : 1644881468586,
+    "duration" : 12371
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 10000ms: Expected to find element: `//button[contains(text(), 'Or click here to logout.')]`, but never found it.",
+  "statusTrace" : "AssertionError: Timed out retrying after 10000ms: Expected to find element: `//button[contains(text(), 'Or click here to logout.')]`, but never found it.\n    at Function.updateAndLogOutFromConduit (https://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\UI\\Test.feature:217:10)\n    at Context.eval (https://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\UI\\Test.feature:335:23)\n    at Context.resolveAndRunStepDefinition (https://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\UI\\Test.feature:10762:29)\n    at Context.eval (https://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\UI\\Test.feature:10083:35)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 10000ms: Expected to find element: `//button[contains(text(), 'Or click here to logout.')]`, but never found it.",
+    "statusTrace" : "AssertionError: Timed out retrying after 10000ms: Expected to find element: `//button[contains(text(), 'Or click here to logout.')]`, but never found it.\n    at Function.updateAndLogOutFromConduit (https://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\UI\\Test.feature:217:10)\n    at Context.eval (https://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\UI\\Test.feature:335:23)\n    at Context.resolveAndRunStepDefinition (https://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\UI\\Test.feature:10762:29)\n    at Context.eval (https://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\UI\\Test.feature:10083:35)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1644881456216,
+        "stop" : 1644881456284,
+        "duration" : 68
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Given User navigates to Conduit",
+      "time" : {
+        "start" : 1644881456293,
+        "stop" : 1644881456691,
+        "duration" : 398
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://react-redux.realworld.io/",
+        "time" : {
+          "start" : 1644881456294,
+          "stop" : 1644881456687,
+          "duration" : 393
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://conduit.productionready.io/api/articles?limit=10&offset=0",
+        "time" : {
+          "start" : 1644881456686,
+          "stop" : 1644881456686,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://conduit.productionready.io/api/tags",
+        "time" : {
+          "start" : 1644881456687,
+          "stop" : 1644881456687,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "Then Clicks on login button",
+      "time" : {
+        "start" : 1644881456691,
+        "stop" : 1644881456876,
+        "duration" : 185
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "xpath //*[@id='main']/div/nav/div/ul/li[2]/a",
+        "time" : {
+          "start" : 1644881456702,
+          "stop" : 1644881456705,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1644881456705,
+          "stop" : 1644881456871,
+          "duration" : 166
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "new url https://react-redux.realworld.io/#login?_k=ba74fs",
+        "time" : {
+          "start" : 1644881456871,
+          "stop" : 1644881456871,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "new url https://react-redux.realworld.io/#/login?_k=ba74fs",
+        "time" : {
+          "start" : 1644881456871,
+          "stop" : 1644881456871,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://api.realworld.io/api/tags",
+        "time" : {
+          "start" : 1644881456871,
+          "stop" : 1644881456871,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://api.realworld.io/api/articles?limit=10&offset=0",
+        "time" : {
+          "start" : 1644881456871,
+          "stop" : 1644881456871,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 6,
+      "hasContent" : true
+    }, {
+      "name" : "Then user enters email",
+      "time" : {
+        "start" : 1644881456876,
+        "stop" : 1644881457485,
+        "duration" : 609
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "xpath //input[@type='email']",
+        "time" : {
+          "start" : 1644881456880,
+          "stop" : 1644881456882,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "type testuserEA1@test.com",
+        "time" : {
+          "start" : 1644881456883,
+          "stop" : 1644881457483,
+          "duration" : 600
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Then user enters password",
+      "time" : {
+        "start" : 1644881457485,
+        "stop" : 1644881457904,
+        "duration" : 419
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "xpath //input[@type='password']",
+        "time" : {
+          "start" : 1644881457486,
+          "stop" : 1644881457488,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "type test1234",
+        "time" : {
+          "start" : 1644881457488,
+          "stop" : 1644881457889,
+          "duration" : 401
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Then updates user settings and logs out",
+      "time" : {
+        "start" : 1644881457904,
+        "stop" : 1644881468585,
+        "duration" : 10681
+      },
+      "status" : "failed",
+      "steps" : [ {
+        "name" : "xpath //*[@id='main']/div/nav/div/ul/li[3]/a",
+        "time" : {
+          "start" : 1644881457907,
+          "stop" : 1644881457948,
+          "duration" : 41
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1644881457948,
+          "stop" : 1644881458189,
+          "duration" : 241
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "new url https://react-redux.realworld.io/#register?_k=ccpfzh",
+        "time" : {
+          "start" : 1644881458189,
+          "stop" : 1644881458189,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "new url https://react-redux.realworld.io/#/register?_k=ccpfzh",
+        "time" : {
+          "start" : 1644881458189,
+          "stop" : 1644881458189,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "new url https://react-redux.realworld.io/#login?_k=vofy74",
+        "time" : {
+          "start" : 1644881458189,
+          "stop" : 1644881468585,
+          "duration" : 10396
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "new url https://react-redux.realworld.io/#/login?_k=vofy74",
+        "time" : {
+          "start" : 1644881468585,
+          "stop" : 1644881468585,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 6,
+      "hasContent" : true
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1644881468599,
+        "stop" : 1644881468603,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "df7ab0012262b19a",
+      "name" : "UI/Test.feature:2022-02-14T23:31:08.203Z",
+      "source" : "df7ab0012262b19a.png",
+      "type" : "image/png",
+      "size" : 201096
+    }, {
+      "uid" : "3d3b94f2bfffff13",
+      "name" : "video recording",
+      "source" : "3d3b94f2bfffff13.mp4",
+      "type" : "video/mp4",
+      "size" : 3682594
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 26,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "UI"
+  }, {
+    "name" : "feature",
+    "value" : "Testing login page"
+  }, {
+    "name" : "tag",
+    "value" : "test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "test" ]
+  },
+  "source" : "65c0d4175958e9f6.json",
+  "parameterValues" : [ ]
+}

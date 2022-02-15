@@ -6,31 +6,43 @@ Feature: Testing login page
         Then Clicks on login button
         Then user enters email
         Then user enters password
+        Then Clicks on login button in Sign in form
+        Then I validate user is loged in his profile
         Then Logs out of Conduit
-        Then Clicks on login button
+        Then Clicks on login button 
         Then user enters Second test email
         Then user enters password 
+        Then Clicks on login button in Sign in form
+        Then I validate user is loged in his profile
         Then Logs out of Conduit
         Then Clicks on login button
         Then user enters Third test email
         Then user enters password 
+        Then Clicks on login button in Sign in form
+        Then I validate user is loged in his profile
         Then Logs out of Conduit
 
+    @test
     Scenario: Click on New Post to Create New Article & Publish
         Given User navigates to Conduit
         Then Clicks on login button
         Then user enters email
         Then user enters password
+        Then Clicks on login button in Sign in form
+        Then I validate user is loged in his profile
         Then I click on new Post
-        Then I enter Article Title 'lorem ipsum'
-        Then I enter Whats this Article about 'lorem ipsum dolor sit amet'
-        Then I enter article text 'lorem ipsumlorem ipsum dolor sit amet doloaris'
+        Then I enter Article Title
+        Then I enter Whats this Article about 
+        Then I enter article text 
         Then I click publish
 
+    @test
     Scenario: Logout and update user settings
         Given User navigates to Conduit
         Then Clicks on login button
         Then user enters email
         Then user enters password
+          Then Clicks on login button in Sign in form
+        Then I validate user is loged in his profile
         Then updates user settings and logs out
        

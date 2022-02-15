@@ -1,8 +1,9 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
   "children" : [ {
     "name" : "TC001:Validate HomePage",
-    "uid" : "be9e1dad0305dd2b",
+    "uid" : "e72b7c88dbace615",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "failed",
     "time" : {
@@ -19,7 +20,7 @@
     "parameters" : [ ]
   }, {
     "name" : "TC001:Validate API Test",
-    "uid" : "1eda489160827f0a",
+    "uid" : "bc1432ef7654cb02",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
@@ -36,7 +37,7 @@
     "parameters" : [ ]
   }, {
     "name" : "Oops...we found an error preparing this test file: UI/Test.feature",
-    "uid" : "257d92216787d351",
+    "uid" : "6972c67169da7b54",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "broken",
     "time" : {
@@ -53,7 +54,7 @@
     "parameters" : [ ]
   }, {
     "name" : "Oops...we found an error preparing this test file: UI/Test.feature",
-    "uid" : "e7333510f8e0660f",
+    "uid" : "898e310e721e09f5",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "broken",
     "time" : {
@@ -70,7 +71,7 @@
     "parameters" : [ ]
   }, {
     "name" : "Oops...we found an error preparing this test file: UI/Test.feature",
-    "uid" : "4f6af9e0bab427ad",
+    "uid" : "5faf13b604cb09fc",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "broken",
     "time" : {
@@ -87,7 +88,7 @@
     "parameters" : [ ]
   }, {
     "name" : "Oops...we found an error preparing this test file: UI/Test.feature",
-    "uid" : "67029f3c35b8ca06",
+    "uid" : "51ea378f8c435c04",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "broken",
     "time" : {
@@ -104,7 +105,7 @@
     "parameters" : [ ]
   }, {
     "name" : "Oops...we found an error preparing this test file: UI/Test.feature",
-    "uid" : "eaf27441760e1cc0",
+    "uid" : "381a93bc3977769b",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "broken",
     "time" : {
@@ -121,55 +122,71 @@
     "parameters" : [ ]
   }, {
     "name" : "An uncaught error was detected outside of a test",
-    "uid" : "6412934209e0d0cb",
+    "uid" : "ec7a726ad9e892f4",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "failed",
     "time" : {
-      "start" : 1644850901026,
-      "stop" : 1644850904624,
-      "duration" : 3598
+      "start" : 1644858914297,
+      "stop" : 1644858914766,
+      "duration" : 469
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 0,
+    "retriesCount" : 2,
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
     "name" : "Valid log in",
-    "uid" : "8f8faa410964319a",
-    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
-    "status" : "failed",
-    "time" : {
-      "start" : 1644852693026,
-      "stop" : 1644852706775,
-      "duration" : 13749
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 3,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Click on New Post to Create New Article & Publish",
-    "uid" : "cddf9268290ed596",
+    "uid" : "1b539a6ce0fa408f",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
-      "start" : 1644852706825,
-      "stop" : 1644852706858,
-      "duration" : 33
+      "start" : 1644884165537,
+      "stop" : 1644884181240,
+      "duration" : 15703
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
+    "retriesCount" : 27,
+    "retriesStatusChange" : true,
     "parameters" : [ ]
-  } ],
-  "name" : "packages"
+  }, {
+    "name" : "Click on New Post to Create New Article & Publish",
+    "uid" : "18f9fe99238303c",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644884181576,
+      "stop" : 1644884189093,
+      "duration" : 7517
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 24,
+    "retriesStatusChange" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "Logout and update user settings",
+    "uid" : "9edda5eba2750ea4",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644884189172,
+      "stop" : 1644884194412,
+      "duration" : 5240
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 20,
+    "retriesStatusChange" : true,
+    "parameters" : [ ]
+  } ]
 }

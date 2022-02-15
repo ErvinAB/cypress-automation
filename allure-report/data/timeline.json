@@ -1,31 +1,15 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
   "children" : [ {
-    "name" : "Oops...we found an error preparing this test file: UI/Test.feature",
-    "uid" : "67029f3c35b8ca06",
+    "name" : "Logout and update user settings",
+    "uid" : "8b9605e13733ca09",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "broken",
+    "status" : "failed",
     "time" : {
-      "start" : 1644850530442,
-      "stop" : 1644850530442,
-      "duration" : 0
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Oops...we found an error preparing this test file: UI/Test.feature",
-    "uid" : "257d92216787d351",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "broken",
-    "time" : {
-      "start" : 1644849684824,
-      "stop" : 1644849684824,
-      "duration" : 0
+      "start" : 1644882297946,
+      "stop" : 1644882313314,
+      "duration" : 15368
     },
     "flaky" : false,
     "newFailed" : false,
@@ -36,13 +20,13 @@
     "parameters" : [ ]
   }, {
     "name" : "Valid log in",
-    "uid" : "33b184f768a5cb3c",
+    "uid" : "e7ce44241d62a2ac",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
+    "status" : "passed",
     "time" : {
-      "start" : 1644851250238,
-      "stop" : 1644851263950,
-      "duration" : 13712
+      "start" : 1644883757299,
+      "stop" : 1644883772734,
+      "duration" : 15435
     },
     "flaky" : false,
     "newFailed" : false,
@@ -52,31 +36,99 @@
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
-    "name" : "TC001:Validate API Test",
-    "uid" : "1eda489160827f0a",
+    "name" : "Valid log in",
+    "uid" : "4d44b9b306deb834",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1644811776618,
-      "stop" : 1644811778330,
-      "duration" : 1712
+      "start" : 1644882424903,
+      "stop" : 1644882432197,
+      "duration" : 7294
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 2,
+    "retriesCount" : 0,
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
-    "name" : "Oops...we found an error preparing this test file: UI/Test.feature",
-    "uid" : "eaf27441760e1cc0",
+    "name" : "Valid log in",
+    "uid" : "2af19e77f3ecd3e7",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "broken",
+    "status" : "passed",
     "time" : {
-      "start" : 1644850654502,
-      "stop" : 1644850654502,
-      "duration" : 0
+      "start" : 1644882286250,
+      "stop" : 1644882293459,
+      "duration" : 7209
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Valid log in",
+    "uid" : "d85f88a5454b12b1",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644883277643,
+      "stop" : 1644883293207,
+      "duration" : 15564
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Logout and update user settings",
+    "uid" : "565384763a375b9c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644883204928,
+      "stop" : 1644883210236,
+      "duration" : 5308
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click on New Post to Create New Article & Publish",
+    "uid" : "14bdc06a413c74a8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644880126576,
+      "stop" : 1644880130210,
+      "duration" : 3634
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Logout and update user settings",
+    "uid" : "c7f9c84bcdf0462b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644878615198,
+      "stop" : 1644878627280,
+      "duration" : 12082
     },
     "flaky" : false,
     "newFailed" : false,
@@ -87,13 +139,217 @@
     "parameters" : [ ]
   }, {
     "name" : "TC001:Validate HomePage",
-    "uid" : "352566e9cc1ccf32",
+    "uid" : "36ff7de0c1983b2e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644811222968,
+      "stop" : 1644811231231,
+      "duration" : 8263
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Logout and update user settings",
+    "uid" : "976375a95004f9cb",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644879795078,
+      "stop" : 1644879808529,
+      "duration" : 13451
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click on New Post to Create New Article & Publish",
+    "uid" : "899ce0633273258d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644879946699,
+      "stop" : 1644879950219,
+      "duration" : 3520
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click on New Post to Create New Article & Publish",
+    "uid" : "2ff6d5c17e4f1dc",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644880263715,
+      "stop" : 1644880266529,
+      "duration" : 2814
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Logout and update user settings",
+    "uid" : "8ecdc1db3c7d6543",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644879351147,
+      "stop" : 1644879363602,
+      "duration" : 12455
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Valid log in",
+    "uid" : "d311873372e39779",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644880109829,
+      "stop" : 1644880126512,
+      "duration" : 16683
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Valid log in",
+    "uid" : "3af5398196c05386",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644858660610,
+      "stop" : 1644858674176,
+      "duration" : 13566
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Valid log in",
+    "uid" : "6722c707ea39957a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644879930619,
+      "stop" : 1644879946643,
+      "duration" : 16024
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click on New Post to Create New Article & Publish",
+    "uid" : "86cc0c3bb9fce5d4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644879791434,
+      "stop" : 1644879795033,
+      "duration" : 3599
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Valid log in",
+    "uid" : "1204c3d6c3ff3070",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644880575522,
+      "stop" : 1644880592372,
+      "duration" : 16850
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click on New Post to Create New Article & Publish",
+    "uid" : "57b77dde00a9c87f",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1642740729866,
-      "stop" : 1642740742686,
-      "duration" : 12820
+      "start" : 1644882554939,
+      "stop" : 1644882562069,
+      "duration" : 7130
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "An uncaught error was detected outside of a test",
+    "uid" : "ec7a726ad9e892f4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644858914297,
+      "stop" : 1644858914766,
+      "duration" : 469
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click on New Post to Create New Article & Publish",
+    "uid" : "7978885f0cf19f1b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644882162100,
+      "stop" : 1644882165997,
+      "duration" : 3897
     },
     "flaky" : false,
     "newFailed" : false,
@@ -104,24 +360,7 @@
     "parameters" : [ ]
   }, {
     "name" : "TC001:Validate API Test",
-    "uid" : "5ac5d0cf0c1a3820",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1644811630702,
-      "stop" : 1644811632545,
-      "duration" : 1843
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "TC001:Validate API Test",
-    "uid" : "1fbe595049e0c546",
+    "uid" : "1c334ff494a49bd",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
@@ -138,7 +377,228 @@
     "parameters" : [ ]
   }, {
     "name" : "Oops...we found an error preparing this test file: UI/Test.feature",
-    "uid" : "e7333510f8e0660f",
+    "uid" : "6972c67169da7b54",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1644849684824,
+      "stop" : 1644849684824,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Logout and update user settings",
+    "uid" : "5bd060b35d137ec2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644881954122,
+      "stop" : 1644881969110,
+      "duration" : 14988
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Valid log in",
+    "uid" : "490c341cc5f2d013",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644858469155,
+      "stop" : 1644858483363,
+      "duration" : 14208
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Valid log in",
+    "uid" : "fd4e0970223d748",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644851250238,
+      "stop" : 1644851263950,
+      "duration" : 13712
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Logout and update user settings",
+    "uid" : "cbb2adf4d5fbbb1f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644883782200,
+      "stop" : 1644883788453,
+      "duration" : 6253
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Valid log in",
+    "uid" : "c35e349c9ab4b539",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644878592548,
+      "stop" : 1644878611259,
+      "duration" : 18711
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Logout and update user settings",
+    "uid" : "3b81a100f1d1a2b3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644882440292,
+      "stop" : 1644882456263,
+      "duration" : 15971
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click on New Post to Create New Article & Publish",
+    "uid" : "7ee1d31cccaf4de5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644883293409,
+      "stop" : 1644883300662,
+      "duration" : 7253
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Logout and update user settings",
+    "uid" : "aec402259b1c459c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644883468452,
+      "stop" : 1644883473914,
+      "duration" : 5462
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Valid log in",
+    "uid" : "8d16599d858671a5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644881540075,
+      "stop" : 1644881547115,
+      "duration" : 7040
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Valid log in",
+    "uid" : "75ebdbfbac0f4799",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644883189616,
+      "stop" : 1644883196820,
+      "duration" : 7204
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Valid log in",
+    "uid" : "306a479f69a28d5f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644852693026,
+      "stop" : 1644852706775,
+      "duration" : 13749
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Valid log in",
+    "uid" : "577c6a54a9516f57",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644880657153,
+      "stop" : 1644880675505,
+      "duration" : 18352
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Oops...we found an error preparing this test file: UI/Test.feature",
+    "uid" : "898e310e721e09f5",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "broken",
     "time" : {
@@ -154,8 +614,671 @@
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
+    "name" : "Oops...we found an error preparing this test file: UI/Test.feature",
+    "uid" : "51ea378f8c435c04",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1644850530442,
+      "stop" : 1644850530442,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Valid log in",
+    "uid" : "44ebc6fec98ef124",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644851455472,
+      "stop" : 1644851468987,
+      "duration" : 13515
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click on New Post to Create New Article & Publish",
+    "uid" : "67a6dca5e388594b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644881453879,
+      "stop" : 1644881456137,
+      "duration" : 2258
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click on New Post to Create New Article & Publish",
+    "uid" : "827244f4eff11f1f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644858483420,
+      "stop" : 1644858483456,
+      "duration" : 36
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Logout and update user settings",
+    "uid" : "9edda5eba2750ea4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644884189172,
+      "stop" : 1644884194412,
+      "duration" : 5240
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 20,
+    "retriesStatusChange" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click on New Post to Create New Article & Publish",
+    "uid" : "eebcca465990b1b0",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644880675576,
+      "stop" : 1644880679930,
+      "duration" : 4354
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Valid log in",
+    "uid" : "26c9dd83a3f95123",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644881942778,
+      "stop" : 1644881949919,
+      "duration" : 7141
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click on New Post to Create New Article & Publish",
+    "uid" : "7b8d4c671dfbab41",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644881949953,
+      "stop" : 1644881954030,
+      "duration" : 4077
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Valid log in",
+    "uid" : "d6b4d0ce90423acb",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644852879124,
+      "stop" : 1644852892840,
+      "duration" : 13716
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
     "name" : "TC001:Validate HomePage",
-    "uid" : "79febb962d13f3c4",
+    "uid" : "e72b7c88dbace615",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644811488953,
+      "stop" : 1644811496082,
+      "duration" : 7129
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 3,
+    "retriesStatusChange" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "An uncaught error was detected outside of a test",
+    "uid" : "e713d571f49133df",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644850901026,
+      "stop" : 1644850904624,
+      "duration" : 3598
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click on New Post to Create New Article & Publish",
+    "uid" : "29b2eb4d75013f4d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644879218486,
+      "stop" : 1644879221586,
+      "duration" : 3100
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click on New Post to Create New Article & Publish",
+    "uid" : "87256f72943eae8a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644880592443,
+      "stop" : 1644880595386,
+      "duration" : 2943
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Valid log in",
+    "uid" : "4a700b20d3ef134c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644882154935,
+      "stop" : 1644882162070,
+      "duration" : 7135
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click on New Post to Create New Article & Publish",
+    "uid" : "7813d4249d8aa843",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644882432220,
+      "stop" : 1644882440240,
+      "duration" : 8020
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click on New Post to Create New Article & Publish",
+    "uid" : "167ae49432abaf66",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644858674222,
+      "stop" : 1644858686026,
+      "duration" : 11804
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click on New Post to Create New Article & Publish",
+    "uid" : "416eb0c5942ffaef",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644883196869,
+      "stop" : 1644883204814,
+      "duration" : 7945
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Valid log in",
+    "uid" : "56d7fda769c9db75",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644879333183,
+      "stop" : 1644879348530,
+      "duration" : 15347
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Logout and update user settings",
+    "uid" : "78a5c4be7f740923",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644881550901,
+      "stop" : 1644881565942,
+      "duration" : 15041
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC001:Validate API Test",
+    "uid" : "bc1432ef7654cb02",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644811776618,
+      "stop" : 1644811778330,
+      "duration" : 1712
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Oops...we found an error preparing this test file: UI/Test.feature",
+    "uid" : "381a93bc3977769b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1644850654502,
+      "stop" : 1644850654502,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Logout and update user settings",
+    "uid" : "9dd8baea61d91ed6",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644883300701,
+      "stop" : 1644883306110,
+      "duration" : 5409
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click on New Post to Create New Article & Publish",
+    "uid" : "1bffd545837240fa",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644852706825,
+      "stop" : 1644852706858,
+      "duration" : 33
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC001:Validate API Test",
+    "uid" : "edaeb17a500c401c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644811630702,
+      "stop" : 1644811632545,
+      "duration" : 1843
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Logout and update user settings",
+    "uid" : "bf0027fbe1cb4a55",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644882166093,
+      "stop" : 1644882181015,
+      "duration" : 14922
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Valid log in",
+    "uid" : "c295d9bb8ff5246",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644879202694,
+      "stop" : 1644879218423,
+      "duration" : 15729
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Logout and update user settings",
+    "uid" : "cf99e81394ce0cd4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644880595415,
+      "stop" : 1644880608219,
+      "duration" : 12804
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Logout and update user settings",
+    "uid" : "274aa4ecca905342",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644879221629,
+      "stop" : 1644879233687,
+      "duration" : 12058
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Logout and update user settings",
+    "uid" : "1c0abd01b484103f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644879950294,
+      "stop" : 1644879963051,
+      "duration" : 12757
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Valid log in",
+    "uid" : "3f2bc57a3dcf8ad7",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644881446504,
+      "stop" : 1644881453838,
+      "duration" : 7334
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Logout and update user settings",
+    "uid" : "218a3a4cc4452242",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644882562223,
+      "stop" : 1644882576965,
+      "duration" : 14742
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click on New Post to Create New Article & Publish",
+    "uid" : "18f9fe99238303c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644884181576,
+      "stop" : 1644884189093,
+      "duration" : 7517
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 24,
+    "retriesStatusChange" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "Oops...we found an error preparing this test file: UI/Test.feature",
+    "uid" : "5faf13b604cb09fc",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1644850453584,
+      "stop" : 1644850453584,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click on New Post to Create New Article & Publish",
+    "uid" : "9fc932724cf50f9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644878611370,
+      "stop" : 1644878615152,
+      "duration" : 3782
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "An uncaught error was detected outside of a test",
+    "uid" : "62f773eff28f7411",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644858796092,
+      "stop" : 1644858796589,
+      "duration" : 497
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Valid log in",
+    "uid" : "1b539a6ce0fa408f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644884165537,
+      "stop" : 1644884181240,
+      "duration" : 15703
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 27,
+    "retriesStatusChange" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "Logout and update user settings",
+    "uid" : "d117772208495eca",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644880130254,
+      "stop" : 1644880143610,
+      "duration" : 13356
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click on New Post to Create New Article & Publish",
+    "uid" : "afc62b12481ba4c7",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644879348596,
+      "stop" : 1644879351104,
+      "duration" : 2508
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click on New Post to Create New Article & Publish",
+    "uid" : "f5690de53e3dfa7",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644883772943,
+      "stop" : 1644883782063,
+      "duration" : 9120
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC001:Validate HomePage",
+    "uid" : "a9a38f63f425c90e",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
@@ -172,64 +1295,13 @@
     "parameters" : [ ]
   }, {
     "name" : "Valid log in",
-    "uid" : "bcd18907b94c4cd1",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
-    "time" : {
-      "start" : 1644851455472,
-      "stop" : 1644851468987,
-      "duration" : 13515
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Valid log in",
-    "uid" : "8f8faa410964319a",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
-    "time" : {
-      "start" : 1644852693026,
-      "stop" : 1644852706775,
-      "duration" : 13749
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 3,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "TC001:Validate HomePage",
-    "uid" : "be9e1dad0305dd2b",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
-    "time" : {
-      "start" : 1644811488953,
-      "stop" : 1644811496082,
-      "duration" : 7129
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 3,
-    "retriesStatusChange" : true,
-    "parameters" : [ ]
-  }, {
-    "name" : "Click on New Post to Create New Article & Publish",
-    "uid" : "cddf9268290ed596",
+    "uid" : "5cb096408cc4ec36",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1644852706825,
-      "stop" : 1644852706858,
-      "duration" : 33
+      "start" : 1644882547808,
+      "stop" : 1644882554914,
+      "duration" : 7106
     },
     "flaky" : false,
     "newFailed" : false,
@@ -239,14 +1311,31 @@
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
-    "name" : "Oops...we found an error preparing this test file: UI/Test.feature",
-    "uid" : "4f6af9e0bab427ad",
+    "name" : "Logout and update user settings",
+    "uid" : "aaa52dc8c7baf1d9",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "broken",
+    "status" : "failed",
     "time" : {
-      "start" : 1644850453584,
-      "stop" : 1644850453584,
-      "duration" : 0
+      "start" : 1644880266562,
+      "stop" : 1644880278632,
+      "duration" : 12070
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Logout and update user settings",
+    "uid" : "cb83130a3a80b30c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644880679984,
+      "stop" : 1644880694193,
+      "duration" : 14209
     },
     "flaky" : false,
     "newFailed" : false,
@@ -257,13 +1346,13 @@
     "parameters" : [ ]
   }, {
     "name" : "TC001:Validate HomePage",
-    "uid" : "27f4cf3b5d4b3faa",
+    "uid" : "ccd9da2ea4116280",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
+    "status" : "passed",
     "time" : {
-      "start" : 1644811222968,
-      "stop" : 1644811231231,
-      "duration" : 8263
+      "start" : 1642740729866,
+      "stop" : 1642740742686,
+      "duration" : 12820
     },
     "flaky" : false,
     "newFailed" : false,
@@ -273,14 +1362,14 @@
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
-    "name" : "An uncaught error was detected outside of a test",
-    "uid" : "6412934209e0d0cb",
+    "name" : "Logout and update user settings",
+    "uid" : "65c0d4175958e9f6",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "failed",
     "time" : {
-      "start" : 1644850901026,
-      "stop" : 1644850904624,
-      "duration" : 3598
+      "start" : 1644881456215,
+      "stop" : 1644881468586,
+      "duration" : 12371
     },
     "flaky" : false,
     "newFailed" : false,
@@ -291,7 +1380,41 @@
     "parameters" : [ ]
   }, {
     "name" : "Valid log in",
-    "uid" : "aa3ff48a3532ab2a",
+    "uid" : "4247e88525ce66f9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644879775899,
+      "stop" : 1644879791355,
+      "duration" : 15456
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Valid log in",
+    "uid" : "16ac917095fe28d9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644880247881,
+      "stop" : 1644880263635,
+      "duration" : 15754
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Valid log in",
+    "uid" : "488cd2794c72b33b",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "failed",
     "time" : {
@@ -306,6 +1429,90 @@
     "retriesCount" : 0,
     "retriesStatusChange" : false,
     "parameters" : [ ]
-  } ],
-  "name" : "timeline"
+  }, {
+    "name" : "Click on New Post to Create New Article & Publish",
+    "uid" : "bb268c0bbc45939c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644882293498,
+      "stop" : 1644882297923,
+      "duration" : 4425
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click on New Post to Create New Article & Publish",
+    "uid" : "3b7b08e70ee722e7",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644881547137,
+      "stop" : 1644881550824,
+      "duration" : 3687
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click on New Post to Create New Article & Publish",
+    "uid" : "fedff8f3f4d1d890",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644852892890,
+      "stop" : 1644852892930,
+      "duration" : 40
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click on New Post to Create New Article & Publish",
+    "uid" : "508c5963f22c18e9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644883461175,
+      "stop" : 1644883468287,
+      "duration" : 7112
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Valid log in",
+    "uid" : "2e33a121524f051f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644883445193,
+      "stop" : 1644883460976,
+      "duration" : 15783
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  } ]
 }

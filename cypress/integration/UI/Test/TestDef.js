@@ -10,7 +10,7 @@ module.exports=class TestDef
 {
     static clickOnLoginButton()
     {
-        cy.xpath(TestLoc.getSettingsButton,{timeout: ReuseData.explicitTimeOut}).click()
+        cy.xpath(TestLoc.getSignInButton,{timeout: ReuseData.explicitTimeOut}).click()
     }
     static enterEmailFirstUser()
     {
@@ -20,6 +20,11 @@ module.exports=class TestDef
     static enterEmailSecondUser()
     {
         cy.xpath(TestLoc.getUserEmail,{timeout: ReuseData.explicitTimeOut}).type(ReuseData.EmailSecondUser)
+    }
+
+    static clickSubmitButton()
+    {
+        cy.xpath(TestLoc.getSignInButtonClick,{timeout: ReuseData.explicitTimeOut}).click()
     }
 
     static enterEmailThirdUser()
@@ -44,19 +49,19 @@ module.exports=class TestDef
         cy.xpath(TestLoc.getNewPostButton,{timeout: ReuseData.explicitTimeOut}).click()
     }
 
-    static enterArticleTitle(string) 
+    static enterArticleTitle() 
     {
-        cy.xpath(TestLoc.getArticleTitle,{timeout: ReuseData.explicitTimeOut}).type(string)
+        cy.xpath(TestLoc.getArticleTitle,{timeout: ReuseData.explicitTimeOut}).type(ReuseData.ArticleTitle)
     }
 
-    static enterWhatisthisabout(string) 
+    static enterWhatisthisabout() 
     {
-        cy.xpath(TestLoc.getWhatIsThisAboutinput,{timeout: ReuseData.explicitTimeOut}).type(string)
+        cy.xpath(TestLoc.getWhatIsThisAboutinput,{timeout: ReuseData.explicitTimeOut}).type(ReuseData.thisIsAbout)
     }
 
-    static enterWriteYourArticle(string) 
+    static enterWriteYourArticle() 
     {
-        cy.xpath(TestLoc.getWriteYourArticle,{timeout: ReuseData.explicitTimeOut}).type(string)
+        cy.xpath(TestLoc.getWriteYourArticle,{timeout: ReuseData.explicitTimeOut}).type(ReuseData.articlePost)
     }
 
     static clickOnPublishButton()
@@ -67,11 +72,16 @@ module.exports=class TestDef
     static updateAndLogOutFromConduit()
     {
         cy.xpath(TestLoc.getSettingsButton,{timeout: ReuseData.explicitTimeOut}).click()
+        cy.xpath(TestLoc.getUpdateUserSettingsField,{timeout: ReuseData.explicitTimeOut}).type(ReuseData.userSettingsUpdate)
         cy.xpath(TestLoc.getSignOutButton,{timeout: ReuseData.explicitTimeOut}).click()
-        cy.xpath(TestLoc.getUpdateUserSettingsField,{timeout: ReuseData.explicitTimeOut}).click()
+        
     }
 
+    static validateLoginIsSuccessfull()
+    {
 
+        cy.xpath(TestLoc.getValidatorForLogIn,{timeout: ReuseData.explicitTimeOut}).should('contain', 'No articles are here... yet.')
+    }
 
 
 

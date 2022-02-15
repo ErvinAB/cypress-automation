@@ -11,6 +11,10 @@ module.exports=class ReusableData
 
     Password="test1234"
 
+    ArticleTitle="This here is a title"
+    thisIsAbout="Testing"
+    articlePost="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nulla libero, suscipit sit amet accumsan"
 
-
+    userSettingsUpdate="Lorem ipsum dolor sit amet"
 }
+

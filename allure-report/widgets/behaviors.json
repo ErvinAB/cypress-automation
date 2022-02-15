@@ -15,12 +15,12 @@
     "uid" : "9757871d2d099f96d2003011014d29fe",
     "name" : "Testing login page",
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     }
   } ]
 }

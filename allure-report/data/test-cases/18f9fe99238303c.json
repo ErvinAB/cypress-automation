@@ -1,0 +1,1012 @@
+{
+  "uid" : "18f9fe99238303c",
+  "name" : "Click on New Post to Create New Article & Publish",
+  "fullName" : "Click on New Post to Create New Article & Publish",
+  "historyId" : "53ed386131e4084dc127f08de7f5b875",
+  "time" : {
+    "start" : 1644884181576,
+    "stop" : 1644884189093,
+    "duration" : 7517
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 24,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1644884181576,
+        "stop" : 1644884181602,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Given User navigates to Conduit",
+      "time" : {
+        "start" : 1644884181613,
+        "stop" : 1644884182216,
+        "duration" : 603
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://react-redux.realworld.io/",
+        "time" : {
+          "start" : 1644884181614,
+          "stop" : 1644884182214,
+          "duration" : 600
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://conduit.productionready.io/api/articles?limit=10&offset=0",
+        "time" : {
+          "start" : 1644884182214,
+          "stop" : 1644884182214,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://conduit.productionready.io/api/tags",
+        "time" : {
+          "start" : 1644884182214,
+          "stop" : 1644884182214,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "Then Clicks on login button",
+      "time" : {
+        "start" : 1644884182216,
+        "stop" : 1644884182360,
+        "duration" : 144
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "xpath //*[@id='main']/div/nav/div/ul/li[2]/a",
+        "time" : {
+          "start" : 1644884182217,
+          "stop" : 1644884182218,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1644884182218,
+          "stop" : 1644884182355,
+          "duration" : 137
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "new url https://react-redux.realworld.io/#login?_k=leqnkm",
+        "time" : {
+          "start" : 1644884182355,
+          "stop" : 1644884182355,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "new url https://react-redux.realworld.io/#/login?_k=leqnkm",
+        "time" : {
+          "start" : 1644884182355,
+          "stop" : 1644884182355,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://api.realworld.io/api/articles?limit=10&offset=0",
+        "time" : {
+          "start" : 1644884182355,
+          "stop" : 1644884182355,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 5,
+      "hasContent" : true
+    }, {
+      "name" : "Then user enters email",
+      "time" : {
+        "start" : 1644884182360,
+        "stop" : 1644884182981,
+        "duration" : 621
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "xpath //input[@type='email']",
+        "time" : {
+          "start" : 1644884182361,
+          "stop" : 1644884182365,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "type testuserEA1@test.com",
+        "time" : {
+          "start" : 1644884182365,
+          "stop" : 1644884182979,
+          "duration" : 614
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://api.realworld.io/api/tags",
+        "time" : {
+          "start" : 1644884182979,
+          "stop" : 1644884182979,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "Then user enters password",
+      "time" : {
+        "start" : 1644884182981,
+        "stop" : 1644884183278,
+        "duration" : 297
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "xpath //input[@type='password']",
+        "time" : {
+          "start" : 1644884182982,
+          "stop" : 1644884182983,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "type test1234",
+        "time" : {
+          "start" : 1644884182983,
+          "stop" : 1644884183273,
+          "duration" : 290
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Then Clicks on login button in Sign in form",
+      "time" : {
+        "start" : 1644884183278,
+        "stop" : 1644884183420,
+        "duration" : 142
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "xpath //button[contains(text(), 'Sign in')]",
+        "time" : {
+          "start" : 1644884183279,
+          "stop" : 1644884183281,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1644884183281,
+          "stop" : 1644884183411,
+          "duration" : 130
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "POST https://conduit.productionready.io/api/users/login",
+        "time" : {
+          "start" : 1644884183411,
+          "stop" : 1644884183411,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "Then I validate user is loged in his profile",
+      "time" : {
+        "start" : 1644884183420,
+        "stop" : 1644884184938,
+        "duration" : 1518
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST https://api.realworld.io/api/users/login",
+        "time" : {
+          "start" : 1644884183422,
+          "stop" : 1644884184934,
+          "duration" : 1512
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://conduit.productionready.io/api/articles/feed?limit=10&offset=0",
+        "time" : {
+          "start" : 1644884184934,
+          "stop" : 1644884184934,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://conduit.productionready.io/api/tags",
+        "time" : {
+          "start" : 1644884184934,
+          "stop" : 1644884184934,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "new url https://react-redux.realworld.io/#/?_k=3aknid",
+        "time" : {
+          "start" : 1644884184934,
+          "stop" : 1644884184934,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://api.realworld.io/api/articles/feed?limit=10&offset=0",
+        "time" : {
+          "start" : 1644884184934,
+          "stop" : 1644884184934,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://api.realworld.io/api/tags",
+        "time" : {
+          "start" : 1644884184934,
+          "stop" : 1644884184934,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **<div.article-preview>** to contain **No articles are here... yet.**",
+        "time" : {
+          "start" : 1644884184934,
+          "stop" : 1644884184934,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "xpath //div[contains(text(), 'No articles are here... yet.')]",
+        "time" : {
+          "start" : 1644884184934,
+          "stop" : 1644884184934,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 8,
+      "hasContent" : true
+    }, {
+      "name" : "Then I click on new Post",
+      "time" : {
+        "start" : 1644884184938,
+        "stop" : 1644884185118,
+        "duration" : 180
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "xpath //*[@id='main']/div/nav/div/ul/li[2]/a",
+        "time" : {
+          "start" : 1644884184939,
+          "stop" : 1644884184944,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1644884184944,
+          "stop" : 1644884185115,
+          "duration" : 171
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "new url https://react-redux.realworld.io/#editor?_k=w7bix6",
+        "time" : {
+          "start" : 1644884185115,
+          "stop" : 1644884185115,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "new url https://react-redux.realworld.io/#/editor?_k=w7bix6",
+        "time" : {
+          "start" : 1644884185115,
+          "stop" : 1644884185115,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    }, {
+      "name" : "Then I enter Article Title",
+      "time" : {
+        "start" : 1644884185118,
+        "stop" : 1644884185746,
+        "duration" : 628
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "xpath //input[@placeholder='Article Title']",
+        "time" : {
+          "start" : 1644884185121,
+          "stop" : 1644884185128,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "type This here is a title",
+        "time" : {
+          "start" : 1644884185128,
+          "stop" : 1644884185736,
+          "duration" : 608
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Then I enter Whats this Article about",
+      "time" : {
+        "start" : 1644884185746,
+        "stop" : 1644884186115,
+        "duration" : 369
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "xpath //*[@id='main']/div/div/div/div/div/form/fieldset/fieldset[2]/input",
+        "time" : {
+          "start" : 1644884185747,
+          "stop" : 1644884185754,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "type Testing",
+        "time" : {
+          "start" : 1644884185754,
+          "stop" : 1644884186104,
+          "duration" : 350
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Then I enter article text",
+      "time" : {
+        "start" : 1644884186115,
+        "stop" : 1644884188813,
+        "duration" : 2698
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "xpath //textarea[@placeholder='Write your article (in markdown)']",
+        "time" : {
+          "start" : 1644884186117,
+          "stop" : 1644884186120,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "type Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nulla libero, suscipit sit amet accumsan",
+        "time" : {
+          "start" : 1644884186120,
+          "stop" : 1644884188802,
+          "duration" : 2682
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Then I click publish",
+      "time" : {
+        "start" : 1644884188813,
+        "stop" : 1644884189093,
+        "duration" : 280
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "xpath //button[contains(text(), 'Publish Article')]",
+        "time" : {
+          "start" : 1644884188815,
+          "stop" : 1644884188820,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1644884188820,
+          "stop" : 1644884189086,
+          "duration" : 266
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "POST https://conduit.productionready.io/api/articles",
+        "time" : {
+          "start" : 1644884189086,
+          "stop" : 1644884189086,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1644884189105,
+        "stop" : 1644884189115,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 50,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "UI"
+  }, {
+    "name" : "feature",
+    "value" : "Testing login page"
+  }, {
+    "name" : "tag",
+    "value" : "test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f5690de53e3dfa7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644883772943,
+        "stop" : 1644883782063,
+        "duration" : 9120
+      }
+    }, {
+      "uid" : "508c5963f22c18e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644883461175,
+        "stop" : 1644883468287,
+        "duration" : 7112
+      }
+    }, {
+      "uid" : "7ee1d31cccaf4de5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644883293409,
+        "stop" : 1644883300662,
+        "duration" : 7253
+      }
+    }, {
+      "uid" : "416eb0c5942ffaef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644883196869,
+        "stop" : 1644883204814,
+        "duration" : 7945
+      }
+    }, {
+      "uid" : "57b77dde00a9c87f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644882554939,
+        "stop" : 1644882562069,
+        "duration" : 7130
+      }
+    }, {
+      "uid" : "7813d4249d8aa843",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644882432220,
+        "stop" : 1644882440240,
+        "duration" : 8020
+      }
+    }, {
+      "uid" : "bb268c0bbc45939c",
+      "status" : "failed",
+      "statusDetails" : "Failed to execute 'evaluate' on 'Document': The string '///*[@id='main']/div/div/div/div/div/form/fieldset/fieldset[2]/input' is not a valid XPath expression.",
+      "time" : {
+        "start" : 1644882293498,
+        "stop" : 1644882297923,
+        "duration" : 4425
+      }
+    }, {
+      "uid" : "7978885f0cf19f1b",
+      "status" : "failed",
+      "statusDetails" : "Step implementation missing for: I enter Article Title",
+      "time" : {
+        "start" : 1644882162100,
+        "stop" : 1644882165997,
+        "duration" : 3897
+      }
+    }, {
+      "uid" : "7b8d4c671dfbab41",
+      "status" : "failed",
+      "statusDetails" : "Step implementation missing for: I enter Article Title",
+      "time" : {
+        "start" : 1644881949953,
+        "stop" : 1644881954030,
+        "duration" : 4077
+      }
+    }, {
+      "uid" : "3b7b08e70ee722e7",
+      "status" : "failed",
+      "statusDetails" : "Step implementation missing for: I enter Article Title 'lorem ipsum'",
+      "time" : {
+        "start" : 1644881547137,
+        "stop" : 1644881550824,
+        "duration" : 3687
+      }
+    }, {
+      "uid" : "67a6dca5e388594b",
+      "status" : "failed",
+      "statusDetails" : "Step implementation missing for: I enter Article Title 'lorem ipsum'",
+      "time" : {
+        "start" : 1644881453879,
+        "stop" : 1644881456137,
+        "duration" : 2258
+      }
+    }, {
+      "uid" : "eebcca465990b1b0",
+      "status" : "failed",
+      "statusDetails" : "Step implementation missing for: I enter Article Title 'lorem ipsum'",
+      "time" : {
+        "start" : 1644880675576,
+        "stop" : 1644880679930,
+        "duration" : 4354
+      }
+    }, {
+      "uid" : "87256f72943eae8a",
+      "status" : "failed",
+      "statusDetails" : "Step implementation missing for: I enter Article Title 'lorem ipsum'",
+      "time" : {
+        "start" : 1644880592443,
+        "stop" : 1644880595386,
+        "duration" : 2943
+      }
+    }, {
+      "uid" : "2ff6d5c17e4f1dc",
+      "status" : "failed",
+      "statusDetails" : "Step implementation missing for: I enter Article Title 'lorem ipsum'",
+      "time" : {
+        "start" : 1644880263715,
+        "stop" : 1644880266529,
+        "duration" : 2814
+      }
+    }, {
+      "uid" : "14bdc06a413c74a8",
+      "status" : "failed",
+      "statusDetails" : "Step implementation missing for: I enter Article Title 'lorem ipsum'",
+      "time" : {
+        "start" : 1644880126576,
+        "stop" : 1644880130210,
+        "duration" : 3634
+      }
+    }, {
+      "uid" : "899ce0633273258d",
+      "status" : "failed",
+      "statusDetails" : "Step implementation missing for: I enter Article Title 'lorem ipsum'",
+      "time" : {
+        "start" : 1644879946699,
+        "stop" : 1644879950219,
+        "duration" : 3520
+      }
+    }, {
+      "uid" : "86cc0c3bb9fce5d4",
+      "status" : "failed",
+      "statusDetails" : "Step implementation missing for: I enter Article Title 'lorem ipsum'",
+      "time" : {
+        "start" : 1644879791434,
+        "stop" : 1644879795033,
+        "duration" : 3599
+      }
+    }, {
+      "uid" : "afc62b12481ba4c7",
+      "status" : "failed",
+      "statusDetails" : "Step implementation missing for: I enter Article Title 'lorem ipsum'",
+      "time" : {
+        "start" : 1644879348596,
+        "stop" : 1644879351104,
+        "duration" : 2508
+      }
+    }, {
+      "uid" : "29b2eb4d75013f4d",
+      "status" : "failed",
+      "statusDetails" : "Step implementation missing for: I enter Article Title 'lorem ipsum'",
+      "time" : {
+        "start" : 1644879218486,
+        "stop" : 1644879221586,
+        "duration" : 3100
+      }
+    }, {
+      "uid" : "9fc932724cf50f9",
+      "status" : "failed",
+      "statusDetails" : "Step implementation missing for: I enter Article Title 'lorem ipsum'",
+      "time" : {
+        "start" : 1644878611370,
+        "stop" : 1644878615152,
+        "duration" : 3782
+      }
+    }, {
+      "uid" : "167ae49432abaf66",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 10000ms: Expected to find element: `//a[contains(text(), ' Settings')]`, but never found it.",
+      "time" : {
+        "start" : 1644858674222,
+        "stop" : 1644858686026,
+        "duration" : 11804
+      }
+    }, {
+      "uid" : "827244f4eff11f1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644858483420,
+        "stop" : 1644858483456,
+        "duration" : 36
+      }
+    }, {
+      "uid" : "fedff8f3f4d1d890",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644852892890,
+        "stop" : 1644852892930,
+        "duration" : 40
+      }
+    }, {
+      "uid" : "1bffd545837240fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644852706825,
+        "stop" : 1644852706858,
+        "duration" : 33
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "test" ]
+  },
+  "source" : "18f9fe99238303c.json",
+  "parameterValues" : [ ]
+}

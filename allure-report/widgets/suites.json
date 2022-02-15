@@ -4,12 +4,12 @@
     "uid" : "6bfa3d1bea669a46b5644d20357bd4d8",
     "name" : "UI",
     "statistic" : {
-      "failed" : 2,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     }
   }, {
     "uid" : "016281abd0bff9d7697d7590379ee775",

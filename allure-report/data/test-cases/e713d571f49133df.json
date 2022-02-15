@@ -1,0 +1,60 @@
+{
+  "uid" : "e713d571f49133df",
+  "name" : "An uncaught error was detected outside of a test",
+  "fullName" : "An uncaught error was detected outside of a test",
+  "historyId" : "c59643030e1e776644fd5d1d6aa79cfc",
+  "time" : {
+    "start" : 1644850901026,
+    "stop" : 1644850904624,
+    "duration" : 3598
+  },
+  "status" : "failed",
+  "statusMessage" : "The following error originated from your test code, not from Cypress.\n\n  > Cannot read properties of undefined (reading 'signals')\n\nWhen Cypress detects uncaught errors originating from your test code it will automatically fail the current test.\n\nCypress could not associate this error to any specific test.\n\nWe dynamically generated a new test to display this failure.",
+  "statusTrace" : "TypeError: The following error originated from your test code, not from Cypress.\n\n  > Cannot read properties of undefined (reading 'signals')\n\nWhen Cypress detects uncaught errors originating from your test code it will automatically fail the current test.\n\nCypress could not associate this error to any specific test.\n\nWe dynamically generated a new test to display this failure.\n    at normalizeSignal (https://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\UI\\Test.feature:93339:1)\n    at Array.map (<anonymous>)\n    at getSignals (https://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\UI\\Test.feature:93319:53)\n    at getSignalsByName (https://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\UI\\Test.feature:93226:38)\n    at Object.653../realtime.js (https://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\UI\\Test.feature:93240:21)\n    at o (https://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\UI\\Test.feature:1:265)\n    at eval (https://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\UI\\Test.feature:1:316)\n    at Object.546.human-signals (https://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\UI\\Test.feature:74685:25)\n    at o (https://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\UI\\Test.feature:1:265)\n    at eval (https://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\UI\\Test.feature:1:316)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "The following error originated from your test code, not from Cypress.\n\n  > Cannot read properties of undefined (reading 'signals')\n\nWhen Cypress detects uncaught errors originating from your test code it will automatically fail the current test.\n\nCypress could not associate this error to any specific test.\n\nWe dynamically generated a new test to display this failure.",
+    "statusTrace" : "TypeError: The following error originated from your test code, not from Cypress.\n\n  > Cannot read properties of undefined (reading 'signals')\n\nWhen Cypress detects uncaught errors originating from your test code it will automatically fail the current test.\n\nCypress could not associate this error to any specific test.\n\nWe dynamically generated a new test to display this failure.\n    at normalizeSignal (https://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\UI\\Test.feature:93339:1)\n    at Array.map (<anonymous>)\n    at getSignals (https://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\UI\\Test.feature:93319:53)\n    at getSignalsByName (https://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\UI\\Test.feature:93226:38)\n    at Object.653../realtime.js (https://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\UI\\Test.feature:93240:21)\n    at o (https://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\UI\\Test.feature:1:265)\n    at eval (https://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\UI\\Test.feature:1:316)\n    at Object.546.human-signals (https://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\UI\\Test.feature:74685:25)\n    at o (https://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\UI\\Test.feature:1:265)\n    at eval (https://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\UI\\Test.feature:1:316)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d9a097c5d5486d8d",
+      "name" : "UI/Test.feature:2022-02-14T15:01:41.054Z",
+      "source" : "d9a097c5d5486d8d.png",
+      "type" : "image/png",
+      "size" : 112171
+    }, {
+      "uid" : "f3edf0f66ca75281",
+      "name" : "video recording",
+      "source" : "f3edf0f66ca75281.mp4",
+      "type" : "video/mp4",
+      "size" : 407799
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e713d571f49133df.json",
+  "parameterValues" : [ ]
+}

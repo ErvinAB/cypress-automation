@@ -7,7 +7,7 @@ module.exports=class CommonDef
 {
     static clickingonElements()
     {
-        //cy.get(':nth-child(1) > :nth-child(1) > .card-body > h5').click()
-      //  cy.xpath(CommonLocator.getElementLink).click()
+      cy.get('#main > div > .navbar > .container > .navbar-brand').click()
+      
     }
 }
