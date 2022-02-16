@@ -23,5 +23,8 @@
     "cypress-iframe": "^1.0.1",
     "cypress-xpath": "^1.6.2",
     "node-xlsx": "^0.21.0"
+  },
+  "dependencies": {
+    "jsonpath": "^1.1.1"
   }
 }
