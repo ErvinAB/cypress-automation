@@ -1,5 +1,7 @@
 @suite("UI")
 Feature: Testing login page
+
+# uses data from ReusableData.js 
     @test
     Scenario: Valid log in 
         Given User navigates to Conduit
@@ -22,6 +24,7 @@ Feature: Testing login page
         Then I validate user is loged in his profile
         Then Logs out of Conduit
 
+# uses data from ReusableData.js 
     @test
     Scenario: Click on New Post to Create New Article & Publish
         Given User navigates to Conduit
@@ -36,6 +39,8 @@ Feature: Testing login page
         Then I enter article text 
         Then I click publish
 
+
+# uses data from ReusableData.js 
     @test
     Scenario: Logout and update user settings
         Given User navigates to Conduit
@@ -46,3 +51,12 @@ Feature: Testing login page
         Then I validate user is loged in his profile
         Then updates user settings and logs out
        
+    @test
+    Scenario: Test With Data From Table   
+     Given User navigates to Conduit
+        Then Clicks on login button
+        Then user enters email from data
+        Then user enters password from data
+        Then Clicks on login button in Sign in form
+        Then I validate user is loged in his profile
+        Then Logs out of Conduit
