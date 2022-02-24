@@ -1,6 +1,5 @@
 @suite("UI")
 Feature: Testing login page
-
 # uses data from ReusableData.js 
     @test
     Scenario: Valid log in 
@@ -51,12 +50,3 @@ Feature: Testing login page
         Then I validate user is loged in his profile
         Then updates user settings and logs out
        
-    @test
-    Scenario: Test With Data From Table   
-     Given User navigates to Conduit
-        Then Clicks on login button
-        Then user enters email from data
-        Then user enters password from data
-        Then Clicks on login button in Sign in form
-        Then I validate user is loged in his profile
-        Then Logs out of Conduit

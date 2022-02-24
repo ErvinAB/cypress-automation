@@ -2,7 +2,7 @@
 /// <reference types="@shelex/cypress-allure-plugin" />
 const cucumber = require('cypress-cucumber-preprocessor').default
 const allureWriter=require('@shelex/cypress-allure-plugin/writer');
-const { config } = require('cypress/types/bluebird');
+ //const { config } = require('cypress/types/bluebird');
 
 
 /**
@@ -16,28 +16,3 @@ module.exports = (on, config) => {
 }
 
 
-// Data driven XLSX 
-
-
-const xlsx = require('node-xlsx').default;
-const fs = require('fs'); //this is for the file
-const path = require('path');
-module.exports = (on, config) => {
-  on('task', { parseXlsx({filePath})
-  { return new Promise((resolve, reject) =>
-    { try
-      {
-        const jsonData = xlsx.parse(fs.readFileSync(filePath));
-        resolve(jsonData);
-      }catch (e)
-      {
-        reject(e);
-      } });
-    }}); }
-    const readXlsx = require('./read-xlsx')
-
-    module.exports = (on, config) => {
-      on('task', {
-        'readXlsx': readXlsx.read
-      })
-    }

@@ -6,8 +6,8 @@ const TestLoc=new TestLocator()
 import ReusableData from "../CommonUtil/ReusableData"
 const ReuseData=new ReusableData()
 
-import excelData from "../fixtures/excelData";
-const excelData=new excelData()
+// import excelData from "../fixtures/excelData"
+// const excel =new excelData()
 
 module.exports=class TestDef
 {
@@ -86,14 +86,6 @@ module.exports=class TestDef
         cy.xpath(TestLoc.getValidatorForLogIn,{timeout: ReuseData.explicitTimeOut}).should('contain', 'No articles are here... yet.')
     }
 
-    static enterEmailfromData()
-    {
-        cy.xpath(TestLoc.getUserEmail,{timeout: ReuseData.explicitTimeOut}).type(excelData.emailAdress)
-    }
 
-    static enterPasswordFromData()
-    {
-        cy.xpath(TestLoc.getUserEmail,{timeout: ReuseData.explicitTimeOut}).type(excelData.password)
-    }
 
 }

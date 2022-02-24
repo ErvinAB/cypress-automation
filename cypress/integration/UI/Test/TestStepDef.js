@@ -56,12 +56,3 @@ Then('I click publish', () =>{
 Then('updates user settings and logs out', () =>{
     TestDef.updateAndLogOutFromConduit()
 })
-Then ('user enters email from data', () =>{
-
-    TestDef.enterEmailfromData()
-})
-
-Then ('user enters password from data', () =>{
-
-    TestDef.enterPasswordFromData()
-})
